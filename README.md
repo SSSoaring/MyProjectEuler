@@ -1,4 +1,7 @@
 # MyProjectEuler
-My solutions for project euler
+My solutions for project euler.
 
-2021.01.14 1~20
+Written in C++.
+
+# update record
+2021.01.14&emsp;&emsp;&emsp;&emsp;&emsp;1~20
