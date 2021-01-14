@@ -3,5 +3,5 @@ My solutions for project euler.
 
 Written in C++.
 
-# update record
+### Update record
 2021.01.14&emsp;&emsp;&emsp;&emsp;&emsp;1~20
