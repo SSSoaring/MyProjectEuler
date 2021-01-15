@@ -55,7 +55,7 @@ int main()
             maxi=i;
         }
     }
+    compute(maxi,true);
     cout<<maxi<<" "<<maxt<<endl;
-    //compute(maxi,true);
     return 0;
 }
