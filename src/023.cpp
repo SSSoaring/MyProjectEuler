@@ -3,9 +3,26 @@
 
 using namespace std;
 
-int compute_d(int n)
+int compute_d1(int n)
 {
     int sum=1;
+    for(int i=2;i<=sqrt(n);++i)
+    {
+        int k=1;
+        while(n%i==0)
+        {
+            k=k*i+1;
+            n/=i;
+        }
+        sum*=k;
+    }
+    if(n>1) sum*=(1+n);
+    return sum;
+}
+
+int compute_d2(int n)
+{
+    int sum=n;
     for(int i=2;i<=sqrt(n);++i)
     {
         if(n%i==0) sum+=i+n/i;
@@ -18,12 +35,12 @@ int main()
 {
     const int mlimit=28123;
     int a[mlimit+1];
-    int num=0;
+    int num=0,tmp;
     bool b[mlimit+1];
     for(int i=1;i<=mlimit;++i)
     {
         b[i]=false;
-        if(compute_d(i)>i)
+        if(compute_d1(i)>2*i)
         {
             a[num]=i;
             ++num;
@@ -33,7 +50,8 @@ int main()
     {
         for(int j=i;j<num;++j)
         {
-            if(a[i]+a[j]<=mlimit) b[a[i]+a[j]]=true;
+            tmp=a[i]+a[j];
+            if(tmp<=mlimit) b[tmp]=true;
         }
     }
     int sum=0;
