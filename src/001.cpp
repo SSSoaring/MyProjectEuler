@@ -13,4 +13,5 @@ int main()
             sum+=i;
     }
     printf("%d\n",sum);
+    return 0;
 }
