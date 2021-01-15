@@ -37,7 +37,6 @@ int main()
     for(int i=1;i<=1000;++i)
     {
         sum+=Count(i);
-        //cout<<i<<" "<<Count(i)<<endl;
     }
     cout << sum << endl;
     return 0;
