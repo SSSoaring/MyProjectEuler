@@ -2,8 +2,17 @@
 
 using namespace std;
 
-const int k=20;
+//(0,n)=c(0,n+1)
+//(1,n)=c(1,n+1)
+//(2,n)=c(1,n+1)+...+c(1,2)+c(2,2)=c(2,n+2)
+//(3,n)=c(2,n+2)+...+c(2,3)+c(3,3)=c(3,n+3)
+//...
+//(m,n)=(n,m)=c(m,n+m)
+//(m,m)=c(m,2m)
+//"C" is for "combination"
+//(m,m) is the result
 
+const int k=20;
 long long int a[k+1][k+1];
 
 long long int compute(int m,int n)
@@ -34,13 +43,6 @@ long long int computeC(int m,int n)
     return a[n][m];
 }
 
-//(0,n)=c(0,n+1)
-//(1,n)=c(1,n+1)
-//(2,n)=c(1,n+1)+...+c(1,2)+c(2,2)=c(2,n+2)
-//(3,n)=c(2,n+2)+...+c(2,3)+c(3,3)=c(3,n+3)
-//...
-//(m,n)=(n,m)=c(m,n+m)
-
 int main()
 {
     for(int i=1;i<k+1;++i)
@@ -50,7 +52,8 @@ int main()
     long long int c=compute(k,k);
 
     long long int p=computeC(k,2*k);
-    cout << c << endl;
-    cout<<p<<endl;
+    cout<<"(k,k)="<<c<< endl;
+    cout<<"C(k,k)="<<p<<endl;
+    cout<<"They should be the same number.\n";
     return 0;
 }
