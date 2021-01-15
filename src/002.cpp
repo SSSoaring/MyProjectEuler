@@ -21,4 +21,5 @@ int main()
         if(i%3==2) sum+=F[i];
     }
     cout<<sum<<endl;
+    return 0;
 }
