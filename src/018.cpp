@@ -24,14 +24,6 @@ int main()
             else a[i][j]+=a[i-1][j];
         }
     }
-//    for(int i=0;i<MAX;++i)
-//    {
-//        for(int j=0;j<=i;++j)
-//        {
-//            cout<<a[i][j]<<" ";
-//        }
-//        cout<<endl;
-//    }
     for(int j=0;j<=MAX;++j)
     {
         if(a[MAX-1][j]>output) output=a[MAX-1][j];
