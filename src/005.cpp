@@ -24,4 +24,5 @@ int main()
             product*=a[j];
     }
     cout<<product;
+    return 0;
 }
