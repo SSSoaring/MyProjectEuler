@@ -26,9 +26,9 @@ int main()
     int sum=0;
     for(int i=1;i<10000;++i)
     {
-        if(d[d[i]]==i&&d[i]!=i)
+        if(d[i]>i&&d[d[i]]==i)
         {
-            sum+=i;
+            sum+=i+d[i];
         }
     }
     cout << sum << endl;
