@@ -23,14 +23,6 @@ int main()
             if(first[i][j]%7==0) ++sum;
         }
     }
-//    for(int i=1;i<101;++i)
-//    {
-//        for(int j=0;j<12;++j)
-//        {
-//            cout<<first[i][j]<<" ";
-//        }
-//        cout<<endl;
-//    }
     cout<<sum<<endl;
     return 0;
 }
