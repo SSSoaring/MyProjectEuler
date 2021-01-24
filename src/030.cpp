@@ -66,7 +66,7 @@ int main()
                         for(int f=0;f<=9;++f)
                         {
                             num=a*100000+b*10000+c*1000+d*100+e*10+f;
-                            if(num!=1&&num==power[a]+power[b]+power[c]+power[d]+power[e]+power[f])
+                            if(num==power[a]+power[b]+power[c]+power[d]+power[e]+power[f])
                             {
                                 sum+=num;
                             }
