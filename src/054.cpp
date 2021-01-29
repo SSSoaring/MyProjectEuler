@@ -203,7 +203,7 @@ int main()
     string s;
     ifstream poker;
     int cnt=0;
-    poker.open("./data/p054_poker.txt");
+    poker.open("../data/p054_poker.txt");
     char buf[100];
     if(poker.is_open())
     {
