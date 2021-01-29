@@ -1,9 +1,8 @@
 # MyProjectEuler 
+This a collection of my solutions to Project Euler.  
 
-## About Project Euler  
-If you are insterested in this project, find more information in https://projecteuler.net/about.
-
-## File Structure
+### About Project Euler  
+If you are also insterested in this project, find more information in https://projecteuler.net/about.
 
 ### src
 My solutions to Project Euler.  
