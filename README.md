@@ -1,7 +1,9 @@
 # MyProjectEuler 
 
-### About Project Euler  
+## About Project Euler  
 If you are insterested in this project, find more information in https://projecteuler.net/about.
+
+## File Structure
 
 ### src
 My solutions to Project Euler.  
