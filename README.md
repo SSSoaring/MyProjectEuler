@@ -2,11 +2,11 @@
 This a collection of my solutions to Project Euler.  
 
 ### About Project Euler  
-If you are also insterested in this project, find more information in https://projecteuler.net/about .
+If you are also insterested in this project, find more information in https://projecteuler.net/about.
 
 ### Structure of This Repo  
 * \src: &emsp;Source files of my solutions. Written in C++.  
-* \data: &emsp;Some extra files provided by the project to solve the problem  
+* \data: &emsp;Some extra files provided by the project to solve the problems. 
 
 ### Update Record
 * 2021.01.14&emsp;&emsp;&emsp;&emsp;&emsp;1~21  
