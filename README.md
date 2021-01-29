@@ -4,9 +4,8 @@ This a collection of my solutions to Project Euler.
 ### About Project Euler  
 If you are also insterested in this project, find more information in https://projecteuler.net/about .
 
-### Structure of Files
-
-#### src
+### Structure of This Repo
+#### src 
 My solutions to Project Euler.  
 Written in C++.  
 #### data
