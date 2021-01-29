@@ -4,13 +4,15 @@ This a collection of my solutions to Project Euler.
 ### About Project Euler  
 If you are also insterested in this project, find more information in https://projecteuler.net/about .
 
+### Structure of Files
+
 #### src
 My solutions to Project Euler.  
 Written in C++.  
 #### data
 Some extra files provided by the project to solve the problem  
 
-### Update record
+### Update Record
 2021.01.14&emsp;&emsp;&emsp;&emsp;&emsp;1~21  
 2021.01.15&emsp;&emsp;&emsp;&emsp;&emsp;22-24  
 2021.01.20&emsp;&emsp;&emsp;&emsp;&emsp;25-27  
