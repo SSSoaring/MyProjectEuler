@@ -1,6 +1,10 @@
-# MyProjectEuler
+# MyProjectEuler 
+
+### src
 My solutions to Project Euler.  
-Written in C++.
+Written in C++.  
+### data
+Some extra files provided by the project to solve the problem  
 
 ## Update record
 2021.01.14&emsp;&emsp;&emsp;&emsp;&emsp;1~21  
