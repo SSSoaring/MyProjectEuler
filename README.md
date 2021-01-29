@@ -6,8 +6,7 @@ If you are also insterested in this project, find more information in https://pr
 
 ### Structure of This Repo
 #### src 
-My solutions to Project Euler.  
-Written in C++.  
+Source files of my solutions. Written in C++.  
 #### data
 Some extra files provided by the project to solve the problem  
 
