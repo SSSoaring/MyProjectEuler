@@ -1,5 +1,8 @@
 # MyProjectEuler 
 
+### About Project Euler  
+If you are insterested in this project, find more information in https://projecteuler.net/about.
+
 ### src
 My solutions to Project Euler.  
 Written in C++.  
