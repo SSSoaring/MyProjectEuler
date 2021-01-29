@@ -7,7 +7,7 @@ If you are also insterested in this project, find more information in https://pr
 ### Structure of This Repo  
 #### \src:
 Source files of my solutions. Written in C++.  
-#### \data
+#### \data:
 Some extra files provided by the project to solve the problem  
 
 ### Update Record
