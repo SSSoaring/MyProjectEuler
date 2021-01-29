@@ -5,8 +5,8 @@ This a collection of my solutions to Project Euler.
 If you are also insterested in this project, find more information in https://projecteuler.net/about .
 
 ### Structure of This Repo  
-**\src** Source files of my solutions. Written in C++.  
-**\data** Some extra files provided by the project to solve the problem  
+**\src:**&emsp;&emsp;Source files of my solutions. Written in C++.  
+**\data:**&emsp;&emsp;Some extra files provided by the project to solve the problem  
 
 ### Update Record
 2021.01.14&emsp;&emsp;&emsp;&emsp;&emsp;1~21  
