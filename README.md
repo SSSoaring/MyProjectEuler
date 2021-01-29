@@ -1,5 +1,5 @@
 # MyProjectEuler
-My solutions for project euler.  
+My solutions to Project Euler.  
 Written in C++.
 
 ## Update record
