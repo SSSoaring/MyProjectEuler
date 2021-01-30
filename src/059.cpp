@@ -48,6 +48,13 @@ int main()
                 chpertext[len]=chpertext[len]*10+buf[j]-'0';
             ++len;
 
+    
+    /* Why do I know that the key is exp?
+    In fact, I traversed all possible keys 
+    I restricted the decrypted ciphertext to be only spaces, a-z, A-Z or 0-9 
+    Then calculate the number of legal characters in the plaintext 
+    The key, whose plaintext contains the most legal characters is the correct answer
+    */
     int key[3]={101,120,112};
     cout<<(char)key[0]<<(char)key[1]<<(char)key[2]<<endl;
     cout<<decryption(chpertext,key,plaintext,len);
