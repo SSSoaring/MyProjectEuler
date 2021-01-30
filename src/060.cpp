@@ -41,7 +41,7 @@ int next_prime_by_2(int n)
 }
 
 
-bool findpair(int num[],int len)
+bool is_pair(int num[],int len)
 {
     bool flag=true;
     long long int n,tmp,p=num[len];
@@ -80,7 +80,7 @@ bool findpair(int num[],int len)
 int main()
 {
     int num[5];
-    int sum,minsum=100000;
+    int sum,minsum=1000000;
 
     for(int i=3; i<MAX; ++i)
         p[i]=i%2;
@@ -106,31 +106,31 @@ int main()
             if(num[0]==3) num[1]=next_prime_by_2(num[1]);
             else num[1]=next_prime(num[1]);
             if(num[0]+num[1]*4>minsum) break;
-            if(!findpair(num,1)) continue;
+            if(!is_pair(num,1)) continue;
             num[2]=num[1];
             while(true)
             {
                 num[2]=next_prime(num[2]);
                 if(num[0]+num[1]+num[2]*3>minsum) break;
-                if(!findpair(num,2)) continue;
+                if(!is_pair(num,2)) continue;
                 num[3]=num[2];
                 while(true)
                 {
                     num[3]=next_prime(num[3]);
                     if(num[0]+num[1]+num[2]+num[3]*2>minsum) break;
-                    if(!findpair(num,3)) continue;
+                    if(!is_pair(num,3)) continue;
                     num[4]=num[3];
                     while(true)
                     {
                         num[4]=next_prime(num[4]);
                         sum=num[0]+num[1]+num[2]+num[3]+num[4];
                         if(sum>minsum) break;
-                        if(findpair(num,4)) break;
+                        if(is_pair(num,4)) break;
                     }
                     if(sum>minsum) continue;
-                    for(int i=0;i<5;++i)
-                        cout<<num[i]<<" ";
-                    cout<<sum<<endl;
+                    for(int i=0;i<4;++i)
+                        cout<<num[i]<<"+";
+                    cout<<num[4]<<"="<<sum<<endl;
                     if(sum<minsum) minsum=sum;
                 }
             }
