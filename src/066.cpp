@@ -118,12 +118,6 @@ public:
             ++len;
         }
     }
-    int sum()
-    {
-        int s=0;
-        for(int i=0;i<len;++i) s+=num[i];
-        return s;
-    }
     void print()
     {
         for(int i=len-1;i>=0;--i) cout<<num[i];
