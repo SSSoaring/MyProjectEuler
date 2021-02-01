@@ -77,11 +77,6 @@ public:
         for(int i=0;i<len;++i) s+=num[i];
         return s;
     }
-    void print()
-    {
-        for(int i=len-1;i>=0;--i) cout<<num[i];
-        cout<<endl;
-    }
 };
 
 
@@ -95,7 +90,6 @@ int get_ai(int i)
 const int n=100;
 longlongint den(1);
 longlongint num(get_ai(n));
-int iter=0;
 
 void expand(int n)
 {
