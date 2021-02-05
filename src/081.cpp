@@ -23,6 +23,7 @@ int main()
             }
         }
     }
+    file.close();
 
 
     result[0][0]=data[0][0];
